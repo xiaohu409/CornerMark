@@ -1,6 +1,7 @@
 # CornerMark
 ## 概述
 这是一个Android Library 实现带数字角标的图标
+
 效果图如下：
 ![效果图](device-2018-08-28-224444.png)
 ## 使用教程
@@ -35,7 +36,7 @@ dependencies {
         android:gravity="center" />
 </LinearLayout>
 ```
-3.在代码里实例化控件并,设置角标
+3.在代码里实例化控件,并设置角标
 ```java
 //初始化控件
 CornerMarkView toPayView = findViewById(R.id.to_pay_id);
