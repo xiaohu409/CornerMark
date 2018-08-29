@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--图标文字-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/title_id"
+        android:singleLine="true"
+        tools:drawableTop="@drawable/me_icon1"
+        tools:text="标题"/>
+    <!--角标-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/mark_num_id"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="2"
+        tools:background="@drawable/corner_mark_bg"
+        tools:textColor="@android:color/white"/>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--订单状态按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <com.hutao.cornermark.CornerMarkView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/to_pay_id"
+            app:text="待付款"
+            app:text_color="#555555"
+            app:text_size="12sp"
+            app:drawable="@drawable/me_icon1"
+            app:num_color="#ff4a47"
+            app:num_size="11sp"
+            app:num_bg="@drawable/member_corner_mark_bg"
+            tools:num="2"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <com.hutao.cornermark.CornerMarkView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:text="待发货"
+            app:text_color="#555555"
+            app:text_size="12sp"
+            app:drawable="@drawable/me_icon2"
+            app:num_color="#ff4a47"
+            app:num_size="11sp"
+            app:num_bg="@drawable/member_corner_mark_bg"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/to_send_id"/>
+
+        <com.hutao.cornermark.CornerMarkView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:text="待收货"
+            app:text_color="#555555"
+            app:text_size="12sp"
+            app:drawable="@drawable/me_icon3"
+            app:num_color="#ff4a47"
+            app:num_size="11sp"
+            app:num_bg="@drawable/member_corner_mark_bg"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/to_receive_id"/>
+
+        <com.hutao.cornermark.CornerMarkView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:text="待评价"
+            app:text_color="#555555"
+            app:text_size="12sp"
+            app:drawable="@drawable/me_icon4"
+            app:num_color="#ff4a47"
+            app:num_size="11sp"
+            app:num_bg="@drawable/member_corner_mark_bg"
+            app:num="12"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/order_comment_id"/>
+
+        <com.hutao.cornermark.CornerMarkView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:text="退货"
+            app:text_color="#555555"
+            app:text_size="12sp"
+            app:drawable="@drawable/me_icon5"
+            app:num_color="#ff4a47"
+            app:num_size="11sp"
+            app:num_bg="@drawable/member_corner_mark_bg"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/return_back_id"/>
+    </LinearLayout>
+</LinearLayout>

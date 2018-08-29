@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text_color" format="color|reference" />
+    <attr name="text_size" format="dimension|reference" />
+
+    <declare-styleable name="CornerMarkView">
+        <attr name="text" format="string|reference" />
+        <attr name="text_color" />
+        <attr name="text_size" />
+        <attr name="drawable" format="reference" />
+        <attr name="drawable_padding" format="dimension|reference" />
+        <attr name="num" format="string|reference" />
+        <attr name="num_color" format="color|reference" />
+        <attr name="num_size" format="dimension|reference" />
+        <attr name="num_bg" format="reference" />
+    </declare-styleable>
+
+</resources>
