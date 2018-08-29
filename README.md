@@ -1,9 +1,9 @@
-#CornerMark
-##概述
+# CornerMark
+## 概述
 这是一个Android Library 实现带数字角标的图标
 效果图如下：
 ![效果图](device-2018-08-28-224444.png)
-##使用教程
+## 使用教程
 1.在module的build.gradle引用类库
 ```groovy 
 dependencies {
