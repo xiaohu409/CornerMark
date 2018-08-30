@@ -88,6 +88,10 @@ public class CornerMarkView extends LinearLayout {
         titleView.setText(title);
     }
 
+    public String getTitle() {
+        return titleView.getText().toString();
+    }
+
     /**
      * 设置图标
      * @param rId

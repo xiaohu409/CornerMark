@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        String text = ((TextView)v).getText().toString();
+        String text = ((CornerMarkView)v).getTitle();
         switch (v.getId()) {
             case R.id.to_pay_id:
                 Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
