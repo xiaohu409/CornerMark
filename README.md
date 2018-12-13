@@ -6,7 +6,9 @@
 
 ![效果图](device-2018-08-28-224444.png)
 ## 使用教程
+
 1.在module的build.gradle引用类库
+[![](https://jitpack.io/v/xiaohu409/CornerMark.svg)](https://jitpack.io/#xiaohu409/CornerMark)
 ```groovy 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
