@@ -1,12 +1,12 @@
 # CornerMark
+[![](https://jitpack.io/v/xiaohu409/CornerMark.svg)](https://jitpack.io/#xiaohu409/CornerMark)
 ## 概述
-这是一个Android Library 实现带数字角标的图标
+实现带数字角标的图标
 
 效果图如下：
 
 ![效果图](device-2018-08-28-224444.png)
 ## 使用教程
-[![](https://jitpack.io/v/xiaohu409/CornerMark.svg)](https://jitpack.io/#xiaohu409/CornerMark)
 
 1.在module的build.gradle引用类库
 ```groovy 
@@ -14,6 +14,20 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     implementation project(':cornermark')
+}
+```
+或
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```groovy
+dependencies {
+    implementation 'com.github.xiaohu409:CornerMark:1.0'
 }
 ```
 2.在xml布局文件里使用CornerMarkView控件
