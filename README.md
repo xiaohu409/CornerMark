@@ -37,7 +37,7 @@ dependencies {
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="16dp">
-    <com.hutao.cornermark.CornerMarkView
+    <com.github.xiaohu409.cornermark.CornerMarkView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/to_pay_id"
