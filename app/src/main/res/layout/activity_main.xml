@@ -13,7 +13,7 @@
         android:orientation="horizontal"
         android:padding="16dp">
 
-        <com.hutao.cornermark.CornerMarkView
+        <com.github.xiaohu409.cornermark.CornerMarkView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/to_pay_id"
@@ -28,7 +28,7 @@
             android:layout_weight="1"
             android:gravity="center" />
 
-        <com.hutao.cornermark.CornerMarkView
+        <com.github.xiaohu409.cornermark.CornerMarkView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:text="待发货"
@@ -42,7 +42,7 @@
             android:gravity="center"
             android:id="@+id/to_send_id"/>
 
-        <com.hutao.cornermark.CornerMarkView
+        <com.github.xiaohu409.cornermark.CornerMarkView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:text="待收货"
@@ -56,7 +56,7 @@
             android:gravity="center"
             android:id="@+id/to_receive_id"/>
 
-        <com.hutao.cornermark.CornerMarkView
+        <com.github.xiaohu409.cornermark.CornerMarkView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:text="待评价"
@@ -71,7 +71,7 @@
             android:gravity="center"
             android:id="@+id/order_comment_id"/>
 
-        <com.hutao.cornermark.CornerMarkView
+        <com.github.xiaohu409.cornermark.CornerMarkView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:text="退货"

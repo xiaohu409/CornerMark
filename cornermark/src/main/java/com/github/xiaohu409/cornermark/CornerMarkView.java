@@ -1,10 +1,9 @@
-package com.hutao.cornermark;
+package com.github.xiaohu409.cornermark;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
@@ -34,11 +33,11 @@ public class CornerMarkView extends LinearLayout {
         this(context, null);
     }
 
-    public CornerMarkView(Context context, @Nullable AttributeSet attrs) {
+    public CornerMarkView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public CornerMarkView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public CornerMarkView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         //注意xml值sp,但是取出来以后会被转换为px;
         //值单位sp 这样取出的值跟xml赋值的是一样的

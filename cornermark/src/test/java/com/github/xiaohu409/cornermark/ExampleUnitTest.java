@@ -1,4 +1,4 @@
-package com.hutao.hutao.cornermark;
+package com.github.xiaohu409.cornermark;
 
 import org.junit.Test;
 

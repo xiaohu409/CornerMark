@@ -1,12 +1,11 @@
 package com.example.hutao.cornermark;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hutao.cornermark.CornerMarkView;
+import com.github.xiaohu409.cornermark.CornerMarkView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
