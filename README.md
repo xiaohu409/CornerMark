@@ -1,4 +1,5 @@
 # CornerMark
+[ ![Download](https://api.bintray.com/packages/hutao409/maven/CornerMark/images/download.svg?version=1.0.1) ](https://bintray.com/hutao409/maven/CornerMark/1.0.1/link)
 [![](https://jitpack.io/v/xiaohu409/CornerMark.svg)](https://jitpack.io/#xiaohu409/CornerMark)
 ## 概述
 实现带数字角标的图标
