@@ -27,7 +27,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-    implementation 'com.github.xiaohu409:CornerMark:1.0'
+    implementation 'com.github.xiaohu409:CornerMark:1.0.1'
 }
 ```
 2.在xml布局文件里使用CornerMarkView控件
