@@ -8,28 +8,22 @@
 ![效果图](device-2018-08-28-224444.png)
 ## 使用教程
 
-1.在module的build.gradle引用类库
-```groovy 
-dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+1.引用类库 在项目的根目录build.gradle添加仓储地址，然后在module的build.gradle添加依赖
 
-    implementation project(':cornermark')
-}
-```
-或
-```groovy
+```groovy 
 allprojects {
     repositories {
         ...
         maven { url 'https://jitpack.io' }
     }
 }
-```
-```groovy
+
 dependencies {
+    ...
     implementation 'com.github.xiaohu409:CornerMark:1.0.1'
 }
 ```
+
 2.在xml布局文件里使用CornerMarkView控件
 ```xml
 <LinearLayout
